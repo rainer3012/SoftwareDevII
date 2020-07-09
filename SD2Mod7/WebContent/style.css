@@ -1,0 +1,81 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+caption, tbody, tfoot, thead,  
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  background-color: #D6D6D6;
+  align: center;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+   border-spacing: 1;
+   background-color: #FFFFFF;
+   text-align: center;
+    table.center {margin-left:auto;margin-right:auto;}
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  align: center;
+}
+p {
+  font-size 14px;
+  margin-left: 4em;
+  padding-left: 100px;
+}
+img {
+  height: auto;
+  width: 200px;
+  vertical-align: middle;
+  margin-left: 1em;
+  float: left;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+em {
+  font-style: italic;
+}
+section {
+  display: block;
+}
+span {
+ text-align: center
+}
